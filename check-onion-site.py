@@ -22,5 +22,5 @@ def check_site(website, ports=[80, 443, 8080, 8443, 666, 1337, 22, 21]):
     return False
 
 if __name__ == "__main__":
-    website = input('Put in your website: ')
+    website = input('Put in your website link: ')
     check_site(website)
